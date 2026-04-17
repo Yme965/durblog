@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kutch Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #071126;
+      color: #f8fafc;
+      min-height: 100vh;
+      padding: 32px 24px 48px;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: #e2e8f0;
+    }
+    p {
+      color: #cbd5e1;
+      margin: 0 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    .card {
+      overflow: hidden;
+      border-radius: 24px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: rgba(15, 23, 42, 0.95);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+    }
+    .card img {
+      width: 100%;
+      display: block;
+      height: 320px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 18px;
+    }
+    .card-body h3 {
+      margin: 0 0 0.75rem;
+      color: #f1f5f9;
+      font-size: 1.15rem;
+    }
+    .card-body p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+    .back-link {
+      color: #38bdf8;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Kutch Gallery</h1>
+    <p>Images from the salt plains, local culture, and vibrant landscapes that make Kutch unforgettable.</p>
+    <div class="grid">
+      <article class="card">
+        <img src="tuff aura man selling ice cream.jpg" alt="Street vendor selling ice cream" />
+        <div class="card-body">
+          <h3>Ice Cream Vendor</h3>
+          <p>A local vendor sells colorful ice cream from his bicycle cart, a charming scene from the streets of Kutch.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="67 kutch rehan boiii im very cringe and i like daniyal 1.3.jpg" alt="Man in traditional Kutch attire" />
+        <div class="card-body">
+          <h3>Traditional Kutch Attire</h3>
+          <p>A man in traditional Kutch clothing walks through a golden field, showcasing the region’s cultural heritage.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="67 rehan boii imvery cringe and i like daniyal 1.2.jpg" alt="Rann Utsav tent city at night" />
+        <div class="card-body">
+          <h3>Evening Tent City</h3>
+          <p>Lanterns and glowing tents line the Rann Utsav village, creating a dreamy nighttime atmosphere.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="67 kutch rehan boiii im very cringe and i like daniyal.jpg" alt="Salt plains sunrise" />
+        <div class="card-body">
+          <h3>Salt Plains Sunrise</h3>
+          <p>The Rann’s white salt crust reflects the warm morning light, forming a stunning sunrise view.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="kutch-1.png" alt="Camel on salt flats" />
+        <div class="card-body">
+          <h3>Camel on the Salt Flats</h3>
+          <p>A rider and camel traverse the wide white salt flats, capturing the quiet beauty of Kutch.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="dabeliii.png" alt="Street snack from Kutch" />
+        <div class="card-body">
+          <h3>Kutch Street Snack</h3>
+          <p>A colorful street snack served fresh, showing the delicious local flavors of Kutch.</p>
+        </div>
+      </article>
+    </div>
+    <a class="back-link" href="kutch.html">← Back to Kutch guide</a>
+  </div>
+</body>
+</html>

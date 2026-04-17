@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zanzibar Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #071126;
+      color: #f8fafc;
+      min-height: 100vh;
+      padding: 32px 24px 48px;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: #e2e8f0;
+    }
+    p {
+      color: #cbd5e1;
+      margin: 0 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    .card {
+      overflow: hidden;
+      border-radius: 24px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: rgba(15, 23, 42, 0.95);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+    }
+    .card img {
+      width: 100%;
+      display: block;
+      height: 320px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 18px;
+    }
+    .card-body h3 {
+      margin: 0 0 0.75rem;
+      color: #f1f5f9;
+      font-size: 1.15rem;
+    }
+    .card-body p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+    .back-link {
+      color: #38bdf8;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Zanzibar Gallery</h1>
+    <p>Photo highlights from Zanzibar’s coastline, Stone Town, and island sunsets.</p>
+    <div class="grid">
+      <article class="card">
+        <img src="znz%20boat.jpg" alt="Zanzibar boat at sunset" />
+        <div class="card-body">
+          <h3>Sunset Boat Ride</h3>
+          <p>Fishermen glide across golden water as the sun sinks behind Zanzibar’s horizon.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="znz%20forozani.jpg" alt="Forodhani market food stall" />
+        <div class="card-body">
+          <h3>Forodhani Market Feast</h3>
+          <p>Skewers, spices, and sizzling seafood light up the night at Zanzibar’s famous market.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="znz%20hotel.jpg" alt="Zanzibar beachfront hotel at dusk" />
+        <div class="card-body">
+          <h3>Beachfront Dusk</h3>
+          <p>Palms and thatched sunshades stand quiet as twilight settles over the shoreline.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="znz.jpg" alt="Aerial Zanzibar coast view" />
+        <div class="card-body">
+          <h3>Turquoise Coastline</h3>
+          <p>Crystal-clear ocean and palm-fringed sand create a stunning coastscape from above.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="hagloglig.jpg" alt="Zanzibar art alley" />
+        <div class="card-body">
+          <h3>Stone Town Art Alley</h3>
+          <p>Paintings, crafts, and colorful signage spill through a busy stone-lined alley.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="halonging.jpg" alt="Zanzibar market skewers" />
+        <div class="card-body">
+          <h3>Market Skewer Spread</h3>
+          <p>Freshly grilled skewers and street food fill the table at a vibrant night market.</p>
+        </div>
+      </article>
+    </div>
+    <a class="back-link" href="zanzibar.html">← Back to Zanzibar guide</a>
+  </div>
+</body>
+</html>

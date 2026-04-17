@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iraq Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #071126;
+      color: #f8fafc;
+      min-height: 100vh;
+      padding: 32px 24px 48px;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: #e2e8f0;
+    }
+    p {
+      color: #cbd5e1;
+      margin: 0 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    .card {
+      overflow: hidden;
+      border-radius: 24px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: rgba(15, 23, 42, 0.95);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+    }
+    .card img {
+      width: 100%;
+      display: block;
+      height: 320px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 18px;
+    }
+    .card-body h3 {
+      margin: 0 0 0.75rem;
+      color: #f1f5f9;
+      font-size: 1.15rem;
+    }
+    .card-body p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+    .back-link {
+      color: #38bdf8;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Iraq Gallery</h1>
+    <p>Photos that capture the golden domes, river heritage, and spiritual light of Iraq’s most revered pilgrimage sites.</p>
+    <div class="grid">
+      <article class="card">
+        <img src="tuff%20kebab.jpg" alt="Iraqi feast platter" />
+        <div class="card-body">
+          <h3>Iraqi Feast</h3>
+          <p>A rich spread of kebab, fresh greens, and pickles laid out for a communal meal.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="tuff%20flag%20like%20daniyal.jpg" alt="Iraqi flag at sunset" />
+        <div class="card-body">
+          <h3>Flag at Sunset</h3>
+          <p>The Iraqi flag stands proud against a warm sunset over the river valley.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="IMAM%20HUSSEIN%20AND%20OULA%20ABBAS.jpg" alt="Shrines of Karbala at night" />
+        <div class="card-body">
+          <h3>Karbala by Night</h3>
+          <p>Golden domes illuminate the sacred courtyards as pilgrims flow through the city.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="Moula%20ali.jpg" alt="Golden dome of Najaf shrine" />
+        <div class="card-body">
+          <h3>Najaf Reverence</h3>
+          <p>The glowing dome of Najaf rises over a sea of visitors gathered at twilight.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="rgwihb.jpg" alt="Iraqi meal platter" />
+        <div class="card-body">
+          <h3>Feast of Iraq</h3>
+          <p>A traditional spread of rice, greens, olives, and pickled vegetables shared at the table.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="ela des ela sont.jpg" alt="Spiral minaret of Samarra" />
+        <div class="card-body">
+          <h3>Samarra Spiral</h3>
+          <p>The iconic spiral minaret of Samarra stands tall against a clear blue sky.</p>
+        </div>
+      </article>
+    </div>
+
+    <a class="back-link" href="iraq.html">← Back to Iraq guide</a>
+  </div>
+</body>
+</html>
